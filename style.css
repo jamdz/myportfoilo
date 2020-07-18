@@ -257,11 +257,6 @@ padding: 0;
         font-size: 14px;
         margin: 0;
      }
-
-     .header-content-01{
-
-        position: absolute;
-     }
      
 }
 
@@ -278,7 +273,7 @@ padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
     position: relative;
-    top: 109px;
+    top: 49px;
 }
 
 
@@ -319,7 +314,7 @@ padding: 0;
         width: 69vw;
         height: auto;
         margin: 0 0 0 29px;
-        top: 28px;
+        top: -38px;
         position: relative;
     }
 
