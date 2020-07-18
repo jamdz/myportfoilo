@@ -101,7 +101,7 @@ padding: 0;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         border-radius: 15px;
         border: 0;
-        margin: 58px 0;
+        margin: 28px 0;
     }
 
     .header-button:hover{
@@ -133,12 +133,6 @@ padding: 0;
 
         display: none;
 
-    }
-
-
-    .header-content-01 h1{
-
-        font-size: 11px;
     }
 
     .img-logo{
@@ -297,7 +291,7 @@ padding: 0;
 
 @media screen and (max-width: 750px){
 
-    .header-content-01{
+    .header-content-01 h1{
 
         font-size: 12px;
 
