@@ -1,0 +1,367 @@
+
+
+    
+    .side-drop-menu{
+
+        display: none;
+    }
+
+/*Universal css*/
+
+*{
+
+list-style-type: none;
+text-decoration: none;
+margin: 0;
+padding: 0;
+
+}
+
+/*top nav css styles*/
+
+.top-bar{
+
+    background-color: black;
+    overflow-y: hidden;
+
+}
+
+.top-bar-nav{
+
+    display: flex;
+
+}
+
+
+/*Menu list css styles*/
+
+.menu-list a{
+
+    color: rgb(117, 117, 122);
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu-list{
+
+    display: flex;
+
+}
+
+.menu-list li {
+
+    padding: 18px;
+
+}
+
+.menu-list li:hover{
+
+    background-color: brown;
+}
+
+.menu{
+
+    margin: 17px auto;
+}
+
+
+/*images logo*/
+
+.img-logo{
+
+    width: 160px;
+    height: auto;
+}
+
+.logo{
+
+    display: flex;
+    flex: 2;
+}
+
+
+    /*Header css style*/
+
+    .header{
+
+        background-color: rgb(36, 37, 37);
+        padding: 3%;
+        height: 86vh;
+        display: flex;
+        overflow: hidden;
+        
+    }
+
+    .header-button{
+
+        background-color: magenta;
+        width: 11vw;
+        height: 5vh;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 15px;
+        border: 0;
+        margin: 58px 0;
+    }
+
+    .header-button:hover{
+
+        background-color: rgb(10, 124, 120);
+
+    }
+
+
+/**/
+
+@media screen and (min-width: 750px){
+
+    .hamburger{
+
+        display: none;
+    }
+
+}
+
+
+
+
+/*Media query css styles for 750px and lower */
+
+@media screen and (max-width: 750px){
+
+    .menu{
+
+        display: none;
+
+    }
+
+    .img-logo{
+
+        width: 30vw;
+        height: auto;
+    }
+
+    .logo{
+
+        flex: 5;
+
+    }
+
+    /*Hamburger css styles*/
+
+    .hamburger{
+
+        display: block;
+        position: relative;
+        flex: 1;
+        transform: rotateY(360deg);
+        margin: 28px 0;
+        transition: 0.25s;
+        top: -9px;
+        cursor: pointer;
+    }
+
+    
+    /*Hambruger css styles*/
+
+
+    .hamburger-bar{
+
+        background-color: white;
+        width: 46px;
+        height: 0.9px;
+        margin: 6px 0;
+    }
+
+    .hamburger.open .hamburger-bar:nth-child(1){
+
+        transform: rotate(145deg);
+        position: absolute;
+        top: 0;
+        transition: 0.15s;
+    }
+
+    .hamburger.open .hamburger-bar:nth-child(2){
+
+        position: absolute;
+        transition: 0.15s;
+        opacity: 0;
+
+    }
+
+    .hamburger.open .hamburger-bar:nth-child(3){
+
+        transform: rotate(45deg);
+        position: absolute;
+        top: 0;
+        transition: 0.15s;
+
+    }
+
+
+
+    /*Side Nav drop menu*/
+
+    .side-drop-menu{
+    background-color: lightgrey;
+    position: absolute;
+    top:0;
+    opacity: 1;
+    overflow-x: hidden;
+    z-index: 1;
+
+    }
+
+    .side-drop-menu.show {
+
+        display: block;
+        transition: 0.67s;
+        width: 76vw;
+        height: 112vh;
+
+    }
+
+    .side-drop-menu-list li{
+
+        padding: 5px;
+        display: block;
+        margin-bottom: 17px;
+        margin-left: 39px;
+        
+    }
+
+    .side-drop-menu-list {
+
+        position: relative;
+        top: 65px;
+        display: block;
+        z-index: -1;
+    }
+
+    .side-drop-menu-list a{
+
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+    .side-drop-menu-list a:hover {
+
+        color: limegreen;
+   
+       }
+}
+
+
+
+
+/*header content*/
+
+.header-content-01{
+
+    color: navajowhite;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    margin: 49px 0;
+    position: relative;
+    top: 109px;
+}
+
+
+.header-image{
+
+    width: 450px;
+    height: auto;
+}
+
+.header-image-1{
+
+    margin: 10px 15px;
+
+}
+
+.header-content{
+
+    margin: 10px 15px;
+
+}
+
+
+@media screen and (max-width: 750px){
+
+    .header-content-01{
+
+        font-size: 12px;
+
+    }
+
+    .header{
+
+        flex-wrap: wrap;
+    }
+
+    .header-image{
+
+        width: 79vw;
+        height: auto;
+        margin: 0 0 0 29px;
+    }
+
+    /*button css styles*/
+
+    .header-button{
+
+        width: 39vw;
+        height: 6vh;
+        font-size: 13px;
+
+    }
+
+    .btn-1{
+
+        width: 40vw;
+        height: 7vh;
+        font-size: 13px;
+        border: none;
+        background-color: tomato;
+        opacity: 8;
+        margin: 9px 0 0 39px;
+        border-radius: 25px;
+    }
+
+    .btn-1:focus {
+
+        background-color: rgb(243, 6, 243);
+    }
+
+    .btn-2{
+
+        width: 40vw;
+        height: 7vh;
+        font-size: 13px;
+        border: none;
+        background-color: tomato;
+        opacity: 8;
+        margin: 9px 0 0 39px;
+        border-radius: 25px;
+    }
+
+    .btn-2:focus {
+
+        background-color: rgb(245, 11, 245);
+    }
+
+
+}
+
+
+/*Bitcoin*/
+
+.content-01-01{
+
+padding: 5%;
+background-color: white;
+
+}
