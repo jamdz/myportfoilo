@@ -137,7 +137,7 @@ padding: 0;
 
     .img-logo{
 
-        width: 30vw;
+        width: 40vw;
         height: auto;
     }
 
@@ -250,6 +250,19 @@ padding: 0;
         color: limegreen;
    
        }
+
+
+     .header-content-01{
+
+        font-size: 14px;
+        margin: 0;
+     }
+
+     .header-content-01{
+
+        position: absolute;
+     }
+     
 }
 
 
@@ -264,7 +277,6 @@ padding: 0;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
-    margin: 49px 0;
     position: relative;
     top: 109px;
 }
@@ -304,9 +316,11 @@ padding: 0;
 
     .header-image{
 
-        width: 79vw;
+        width: 69vw;
         height: auto;
         margin: 0 0 0 29px;
+        top: 28px;
+        position: relative;
     }
 
     /*button css styles*/
