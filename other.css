@@ -1,0 +1,186 @@
+/*content lines*/
+
+.content-line-1{
+
+    background-color: orangered;
+    width: 40px;
+    height: 1px;
+    padding: 0.4px;
+    display: inline-block;
+}
+
+
+.j-btnes1{
+
+    background-color: orangered;
+    width: 15vw;
+    height: 9vh;
+    border: none;
+    font-size: 15px;
+    border-radius: 26px;
+
+}
+
+
+
+.j-btnes2{
+
+    background-color: orangered;
+    width: 15vw;
+    height: 9vh;
+    border: none;
+    font-size: 15px;
+    border-radius: 26px;
+
+}
+
+/*.line-imge{
+
+    padding: 10px;
+    border-left:  6px orangered solid;
+    border-bottom: 6px orangered solid;
+    height: 15vh;
+    width: 15vw;
+    position: absolute;
+    display: inline-block;
+    bottom: -415px;
+    left: 49px;
+
+}*/
+
+/*content css styles*/
+
+
+.cont-h44 {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.content-01-01 h2{
+
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    margin: -12px 0 0 14px;
+
+}
+
+.content-01-01 h3 {
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 46px;
+color: orangered;
+
+}
+
+
+.cont-1-1{
+
+    display: flex;
+    padding: 2%;
+}
+
+
+.flex-content{
+
+    display: flex;
+}
+
+/*cont images*/
+
+.con-img{
+
+    width: 500px;
+    height: auto;
+}
+
+
+.contn-img{
+
+    margin: 40px 0 0 0;
+}
+
+.my-st  { 
+
+    margin:  40px 0 0 59px;
+
+}
+
+.my-st p{
+
+padding: 2%;
+margin-top: 50px;
+
+}
+
+.bntes-conts{
+
+    margin-top: 80px;
+    margin-left: 19px;
+}
+
+
+/* Media screen 750px*/
+
+@media screen and (max-width: 750px){
+
+    /*.line-imge{
+
+    bottom: -565px;
+    left: 9px;
+    }*/
+
+    .my-st{
+
+    margin: 40px 0 0 9px;
+
+    }
+
+    .flex-content{
+
+        flex-wrap: wrap;
+    }
+
+    /*images css style*/
+
+    .con-img{
+
+    width: 90vw;
+    height: auto;
+
+    }
+
+
+    .top-bar-nav{
+
+        position: fixed;
+    }
+
+    .j-btnes1{
+
+        width: 39vw;
+        height: 7vh;
+    }
+
+    
+    .j-btnes2{
+
+        width: 39vw;
+        height: 7vh;
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+
+    /*.line-imge{
+
+        bottom: -565px;
+        left: 9px;
+    
+        }*/
+
+}
