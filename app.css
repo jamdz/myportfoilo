@@ -1,0 +1,52 @@
+.cot-111{
+
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 39px;
+    flex-wrap: wrap;
+
+}
+
+
+.cot-111-2{
+
+    border: 1px solid black;
+    margin: 39px 0 0 19px;
+
+}
+
+.cot-111-2 h5{
+
+    font-size: 17px;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7%;
+}
+
+
+
+.cot-111-2 h6{
+
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+    padding: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cot-111-2 p{
+
+    font-size: 14px;
+    color: rgb(17, 17, 17);
+    padding: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2px;
+}
+
+.cot-11134{
+
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
