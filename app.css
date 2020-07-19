@@ -1,6 +1,6 @@
 .cot-111{
 
-    padding: 1%;
+    padding: 5%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 39px;
@@ -11,8 +11,8 @@
 
 .cot-111-2{
 
-    border: 1px solid black;
     margin: 39px 0 0 19px;
+    box-shadow: 4px 5px 4px 4px rgb(196, 193, 193);
 
 }
 
@@ -49,4 +49,13 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 750px){
+
+    .cot-111{
+
+        padding: 1%;
+    }
+
 }
